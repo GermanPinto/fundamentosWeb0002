@@ -1,0 +1,79 @@
+body {
+    color: rgb(235, 234, 233);
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}*/
+
+h1 {
+    /*color de fondo*/
+    background-color: blue;
+    /*color fuente*/
+    color: white;
+    /*font-size: 10px;*/
+}
+
+#idParrafo3 {
+    background-color: black;
+    color: goldenrod;
+    font-weight: 200;
+    font-size: 32px;
+    text-align: center;
+    /*centrar texto*/
+}
+
+p {
+    background-color: #FF0000;
+    font-weight: 700;
+}
+
+p {
+    background-color: cornflowerblue;
+}
+
+h2 {
+    background-color: #00ff00;
+    color: darkmagenta;
+    text-align: right;
+}
+
+.parrafosExtensos {
+    text-align: justify;
+    color: #023e8a;
+}
+
+.cajita {
+    height: 300px;
+    width: 70%;
+    background-color: deeppink;
+}
+
+.bg-foto {
+    background-image: url("../img/bg-hero.png");
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+}
+
+.caja-contenedora {
+    background-color: blue;
+    padding: 50px;
+    margin-top: 30px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: greenyellow;
+}
+
+.caja-contenedora2 {
+    background-color: blue;
+    padding: 50px;
+    margin-top: 30px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: greenyellow;
+}
