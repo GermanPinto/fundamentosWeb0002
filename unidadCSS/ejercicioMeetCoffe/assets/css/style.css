@@ -1,5 +1,6 @@
 body {
     /* background-color: aqua;*/
+    font-family: 'Open Sans', sans-serif;
 }
 
 * {
@@ -62,11 +63,13 @@ header h1 {
 
 .seccion2 {
     background-color: #A4452C;
+    color: #fff;
     /*height: 300px;*/
 }
 
 .seccion2 img {
     width: 150px;
+    padding-right: 10px;
 }
 
 .d-inline-bloque {
@@ -80,4 +83,25 @@ header h1 {
 
 .w-70 {
     width: 70%;
+}
+
+#contenedor-charla {
+    padding: 40px 0;
+}
+
+#seccion3 {
+    margin: 70px 0;
+    text-align: center;
+}
+
+#seccion3 img {
+    width: 250px;
+}
+
+#contenedor-eventos div {
+    padding-left: 20px;
+}
+
+#contenedor-eventos h2 {
+    padding-bottom: 20px;
 }
