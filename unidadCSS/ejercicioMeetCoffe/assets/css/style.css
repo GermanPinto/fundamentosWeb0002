@@ -109,3 +109,9 @@ header h1 {
 .alinea-vertical {
     vertical-align: middle;
 }
+
+svg {
+    fill: #fff;
+    width: 25px;
+    padding-left: 35%;
+}
