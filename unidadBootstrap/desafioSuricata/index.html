@@ -12,6 +12,10 @@
     <!-- Mis estilos-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Suricata</title>
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 </head>
 
 <body>
@@ -19,8 +23,9 @@
     <nav class="navbar navbar-expand-lg navbar-dark ">
         <div class="container-fluid">
             <!--reemplazamos el texto Navbar por la imagen de la suricata-->
-            <!--la clase w-25 deja la imagen en un 25%-->
-            <a class="navbar-brand" href="#"><img src="assets/img/logo.png" class="w-25" alt="logo suricata"></a>
+            <!--la clase w-25 deja la imagen en un 25% y la clase ms-5 es para darle un margen left-->
+            <a class="navbar-brand ms-5" href="#"><img src="assets/img/logo.png" class="w-25" alt="logo suricata"></a>
+            <div class="w-25 d-none d-sm-block"></div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -39,6 +44,7 @@
             </div>
         </div>
     </nav>
+    <!--seccion de grilla con cards-->
     <section class="container">
         <h1 class="text-center py-5 text-secondary">Nuestros Productos</h1>
         <div>
@@ -99,9 +105,84 @@
                         </div>
                     </div>
                 </div>
+
+                <!--carta 4-->
+                <div class="col-12 col-sm-6 col-md-4 py-2">
+                    <div class="card">
+                        <img src="assets/img/verduras.jpg" class="card-img-top" alt="verduras">
+                        <div class="card-body">
+                            <h5 class="card-title">Verduras</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">An item</li>
+                            <li class="list-group-item">A second item</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Ver más</a>
+                            <a href="#" class="card-link">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--carta 5-->
+                <div class="col-12 col-sm-6 col-md-4 py-2">
+                    <div class="card">
+                        <img src="assets/img/dulces.jpg" class="card-img-top" alt="dulces">
+                        <div class="card-body">
+                            <h5 class="card-title">Dulces</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">An item</li>
+                            <li class="list-group-item">A second item</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Ver más</a>
+                            <a href="#" class="card-link">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--carta 6-->
+                <div class="col-12 col-sm-6 col-md-4 py-2">
+                    <div class="card">
+                        <img src="assets/img/empanadas.jpg" class="card-img-top" alt="empanadas">
+                        <div class="card-body">
+                            <h5 class="card-title">Empanadas</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">An item</li>
+                            <li class="list-group-item">A second item</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Ver más</a>
+                            <a href="#" class="card-link">Comprar</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <!-- fin seccion de grilla con cards-->
+    <!--seccion medio de pago-->
+    <section class="bg-info text-white d-none d-sm-block">
+        <div class="mx-auto w-75 py-5">
+            <p class="d-inline-block fs-2">Ahora aceptamos</p>
+            <div class="d-inline-block fs-1 ps-3">
+                <i class="fa-brands fa-cc-mastercard px-2"></i>
+                <i class="fa-brands fa-cc-visa px-2"></i>
+                <i class="fa-brands fa-cc-amex px-2"></i>
+                <i class="fa-brands fa-cc-diners-club px-2"></i>
+                <i class="fa-brands fa-cc-paypal px-2"></i>
+                <i class="fa-brands fa-cc-discover px-2"></i>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center">
+        <img src="assets/img/logo-footer.png" alt="logo-footer" height="100" class="pt-3 pb-4">
+    </footer>
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
