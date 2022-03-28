@@ -8,3 +8,11 @@ i {
     color: #fff;
     font-size: 35px;
 }
+
+#seccion-grilla img {
+    height: 240px;
+}
+
+#formulario input {
+    background-color: #dee2e6;
+}
