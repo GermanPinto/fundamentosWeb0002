@@ -27,8 +27,8 @@
 
         console.log('El valor de la sum a es: ' + suma1);
         console.log('El valor de la concatenación es: ' + suma2);
-        console.log('veamos que nos muestra: ' + 4 + 4); //texto +numero=texto
-        console.log('veamos que nos muestra: ' + (4 + 4)); //resuelve los parentesis primero y luego concatena el resultado
+        console.log('veamos que nos muestra: ' + 4 + 4); //texto +numero=texto (44)
+        console.log('veamos que nos muestra: ' + (4 + 4)); //resuelve los parentesis primero y luego concatena el resultado (8)
         console.log('esto es para probar \nsi saltó a la sigiente linea');
 
         //variables
@@ -55,6 +55,8 @@
             '\n, la división es: ' + division +
             '\n, el módulo es: ' + modulo);
 
+        // aca podemos inyectar código html (<br> son saltos de linea)
+        //podríamos agregarle clases de mi hoja de estilo o de bootstrap
         document.write(
             '<p>la suma de los números es: ' + suma +
             '<br>, la resta es: ' + resta +
@@ -66,6 +68,8 @@
         var numero1 = 10;
         var numero2 = '10';
 
+        // (==) compara si dos valores son iguales
+        //(===) compara si dos valores son iguales y del mismo tipo
         console.log(numero1 == numero2); //true
         console.log(numero1 === numero2); //false
     </script>
