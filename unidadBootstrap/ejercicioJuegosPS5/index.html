@@ -19,7 +19,7 @@
 
 <body>
     <!--inicio nav-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id="idNav" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <!--icono font awesome-->
             <a class="navbar-brand" href="#"><i class="fa-brands fa-playstation"></i></a>
@@ -89,19 +89,22 @@
             <div class="row text-center">
                 <!--Juego 1-->
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
-                    <img src="assets/img/1.jpg" alt="juego 1" class="img-fluid">
+                    <img src="assets/img/1.jpg" alt="juego 1" class="img-fluid" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ratchet Clank">
                     <h3>Juego 1</h3>
                     <a href="formulario-compra.html"><button type="button" class="btn btn-dark">Comprar</button></a>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#miModal">
+                        Ver
+                    </button>
                 </div>
                 <!--Juego 2-->
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
-                    <img src="assets/img/2.jpg" alt="juego 2" class="img-fluid">
+                    <img src="assets/img/2.jpg" alt="juego 2" class="img-fluid" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Spider Man">
                     <h3>Juego 2</h3>
                     <a href="formulario-compra.html"><button type="button" class="btn btn-dark">Comprar</button></a>
                 </div>
                 <!--Juego 3-->
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 my-3">
-                    <img src="assets/img/3.jpg" alt="juego 3" class="img-fluid">
+                    <img src="assets/img/3.jpg" alt="juego 3" class="img-fluid" data-bs-toggle="tooltip" data-bs-placement="top" title="SackBoy">
                     <h3>Juego 3</h3>
                     <a href="formulario-compra.html"><button type="button" class="btn btn-dark">Comprar</button></a>
                 </div>
@@ -138,10 +141,36 @@
 
             </div>
         </div>
+        <div class="d-flex justify-content-end">
+            <a id="idIrArriba" href="#idNav" class="btn btn-primary me-2">Ir arriba</a>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="miModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ratcher Clank</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Ratchet & Clank (Rachetto & Kuranku en Japón) es una saga de videojuegos de plataformas para PlayStation 2, PSP, PlayStation 3, PlayStation Vita, PlayStation 4 y PlayStation 5 aunque también existen versiones para teléfonos móviles.
+                            Fue creada por la compañía Insomniac Games en el año 2000, siendo Ratchet & Clank de PlayStation 2 el primer título de la franquicia.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>-->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--CDN JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/js/miJs.js"></script>
 </body>
 
 </html>
